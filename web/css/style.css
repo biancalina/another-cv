@@ -3,3 +3,23 @@
 h1 {
   font-family: Roboto;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  margin: 0 36px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+grid > c[span="row"] {
+  grid-column: 1 / -1;
+}
