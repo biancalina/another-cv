@@ -3,3 +3,20 @@
 body {
   font-family: Roboto;
 }
+
+.first-title {
+  height: 40px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.second-title {
+  height: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.third-title {
+  height: 30px;
+  font-size: 22px;
+}
