@@ -1,22 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet');
-
-body {
-  font-family: Roboto;
-}
-
-.first-title {
-  height: 40px;
-  font-size: 36px;
-  text-align: center;
-}
-
-.second-title {
-  height: 30px;
-  font-size: 24px;
-  text-align: center;
-}
-
-.third-title {
-  height: 30px;
-  font-size: 22px;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import 'test.css';
+@import 'font.css';
+@import 'mobile.css';
+@import 'tablet.css';
+@import 'desktop.css';
+@import 'dark.css';
